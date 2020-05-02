@@ -1,0 +1,8 @@
+*{
+	margin: 5px;
+	padding: 5px;
+}
+
+body{background-image: url('../proyecto/imagenes/IMG.jpg');
+     background-size: 100% 100%;
+     background-attachment: fixed;}

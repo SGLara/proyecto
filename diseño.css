@@ -1,0 +1,39 @@
+*{
+  margin: 5px;
+  padding: 5px;
+  
+}
+
+body{background-image: url("../proyecto/imagenes/fondo.jpg");
+     background-size: 100% 100%;
+     background-attachment: fixed;
+}
+
+
+#form{
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 5px black;
+    animation: cambia-color 12s linear infinite;
+    background: -webkit-linear-gradient(left,yellow,orange,red,blue,green);
+    background-size: 400% 400%;
+}
+
+
+@keyframes cambia-color{
+    0%{
+        background-position: 0%, 50%;
+    }
+    
+    50%{
+        background-position: 100%, 50% ;
+    }
+    
+    100%{
+        background-position: 0%, 100%;
+    }
+    
